@@ -44,7 +44,7 @@ class App extends Component{
     render(){
         return(
             <div className= "container-fluid">
-                <TitleBar/>
+                <TitleBar bootCamp= 'devcodecamp'/>
                 <BookViewer book={this.books[this.state.bookNumber]}  nextBook={ this.goToNextBook}  previousBook={this.goToPreviousBook} />
                 
              </div>
