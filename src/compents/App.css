@@ -9,3 +9,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+.row-space{
+    margin-bottom: 2em;
+}
